@@ -1,0 +1,26 @@
+:root {
+  --clr-primary-700: hsl(300, 43%, 22%);
+  --clr-primary-300: hsl(333, 80%, 67%);
+
+  // neutrals
+  --clr-neutral-400: hsl(303, 10%, 53%);
+  --clr-neutral-200: hsl(300, 24%, 96%);
+  --clr-neutral-100: hsl(0, 0%, 100%);
+
+  --ff-base: 'League Spartan', sans-serif;
+
+  // font weight:
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  // font size:
+  --fs-300: 0.9375rem;
+  --fs-400: 1.0625rem;
+  --fs-500: 1.1875rem;
+  --fs-900: 2.5rem;
+
+  @media (min-width: 50em) {
+    --fs-900: 3.5rem;
+  }
+}
