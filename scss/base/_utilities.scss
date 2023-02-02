@@ -2,11 +2,26 @@
   max-width: 70rem;
   padding: 0 2rem;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1.5rem;
 }
 
 // all elements that are adjacent siblings to another element that is on flow-content /
 // that are direct children of flow content (choses all but first)
 .flow-content > * + * {
   margin-top: var(--flow-space, 1rem);
+}
+
+.split {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  @media (min-width: 50em) {
+    flex-direction: row;
+  }
+  .a-center {
+    align-items: center;
+  }
+  .row {
+    flex-direction: row;
+  }
 }

@@ -1,9 +1,13 @@
 .ratings {
   li {
+    max-width: 25rem;
     background: var(--clr-neutral-200);
     font-weight: var(--fw-bold);
     color: var(--clr-primary-700);
     padding: 1rem;
+    border-radius: var(--br);
+    margin-left: auto;
+    margin-right: auto;
 
     &::before {
       content: '';

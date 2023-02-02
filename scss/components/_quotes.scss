@@ -1,0 +1,32 @@
+.quotes {
+  --spacing: 2rem;
+  li {
+    max-width: 25rem;
+    background-color: var(--clr-primary-700);
+    color: var(--clr-neutral-100);
+    text-align: left;
+    border-radius: var(--br);
+    padding: var(--spacing);
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: var(--spacing);
+  }
+
+  .name {
+    font-weight: var(--fw-bold);
+    line-height: 1;
+  }
+
+  .status {
+    color: var(--clr-primary-300);
+    line-height: 1;
+  }
+
+  .quote {
+    margin-top: 1.5rem;
+  }
+}

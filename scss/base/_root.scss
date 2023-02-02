@@ -20,6 +20,9 @@
   --fs-500: 1.1875rem;
   --fs-900: 2.5rem;
 
+  // border radius
+  --br: 0.5rem;
+
   @media (min-width: 50em) {
     --fs-900: 3.5rem;
   }
