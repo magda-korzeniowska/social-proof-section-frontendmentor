@@ -9,6 +9,12 @@
     padding: var(--spacing);
     margin-left: auto;
     margin-right: auto;
+    &:nth-child(2) {
+      transform: translateY(1rem);
+    }
+    &:nth-child(3) {
+      transform: translateY(2rem);
+    }
   }
   img {
     border-radius: 50%;
