@@ -20,7 +20,7 @@ h1 {
   margin-bottom: 1em;
   max-width: 12ch;
   font-weight: var(--fw-bold);
-  @media (max-width: 50rem) {
+  @media (max-width: 55em) {
     margin-left: auto;
     margin-right: auto;
   }
@@ -38,7 +38,7 @@ main {
   margin-bottom: 1rem;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 55em) {
   main {
     grid-template-columns: 1fr 1.5fr;
     text-align: left;
@@ -49,8 +49,21 @@ main {
   .ratings {
     grid-column: 2 / 3;
     align-self: center;
+    justify-self: end;
   }
   .quotes {
     grid-column: 1 / -1;
+  }
+}
+
+.attribution {
+  font-size: 0.8rem;
+  text-align: center;
+  a {
+    color: var(--clr-primary-300);
+    text-decoration: none;
+    &:hover {
+      color: var(--clr-primary-700);
+    }
   }
 }
