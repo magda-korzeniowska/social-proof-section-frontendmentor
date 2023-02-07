@@ -3,6 +3,14 @@ body {
   font-size: var(--fs-400);
   padding-top: 5.125rem;
   text-align: center;
+  background-image: url(/images/bg-pattern-top-desktop.svg),
+    url(/images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-size: 75% 50%;
+  @media (min-width: 50rem) {
+    padding-top: 7.5rem;
+  }
 }
 
 h1 {
