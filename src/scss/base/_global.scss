@@ -8,9 +8,6 @@ body {
   background-repeat: no-repeat;
   background-position: top left, bottom right;
   background-size: 75% 50%;
-  @media (min-width: 50rem) {
-    padding-top: 7.5rem;
-  }
 }
 
 h1 {
