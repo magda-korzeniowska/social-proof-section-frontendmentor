@@ -110,21 +110,22 @@ ol[class] {
 body {
   font-family: var(--ff-base);
   font-size: var(--fs-400);
-  padding-top: 5.125rem;
+  padding-top: 4rem;
   text-align: center;
   background-image: url(/images/bg-pattern-top-desktop.svg), url(/images/bg-pattern-bottom-desktop.svg);
   background-repeat: no-repeat;
   background-position: top left, bottom right;
-  background-size: 75% 50%;
+  background-size: 50% 75%;
 }
 
 h1 {
   font-size: var(--fs-900);
   color: var(--clr-primary-700);
   line-height: 2.7rem;
-  margin-bottom: 1em;
+  margin-bottom: 2rem;
   max-width: 12ch;
   font-weight: var(--fw-bold);
+  letter-spacing: -0.125px;
 }
 @media (max-width: 55em) {
   h1 {
@@ -136,11 +137,12 @@ h1 {
 .subtitle {
   font-size: var(--fs-500);
   color: var(--clr-neutral-400);
+  line-height: 1.5rem;
 }
 
 main {
   display: grid;
-  gap: 3rem 1rem;
+  gap: 4rem 1rem;
   margin-bottom: 1rem;
 }
 
@@ -174,7 +176,7 @@ main {
 }
 
 .container {
-  max-width: 70rem;
+  max-width: 72rem;
   padding: 0 2rem;
   margin: 0 auto;
   padding: 2rem;
@@ -277,4 +279,5 @@ main {
 }
 .quotes .quote {
   margin-top: 1.5rem;
+  line-height: 1.375rem;
 }

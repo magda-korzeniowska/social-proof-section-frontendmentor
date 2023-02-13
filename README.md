@@ -8,7 +8,8 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
-  - [Built with](#built-with)
+- [Installation](#installation)
+- [Built with](#built-with)
 
 ## Overview
 
@@ -16,7 +17,35 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 
 ![](./src/images/screenshot-desktop.png)
 
-### Built with
+## Installation
+
+1. Start terminal and clone repository using:
+
+   ```bash
+   git clone https://github.com/magda-korzeniowska/social-proof-section-frontendmentor.git
+   ```
+
+2. Install all dependencies => go the main directory of the react-challenge repository:
+
+   ```bash
+   cd social-proof-section-frontendmentor
+   ```
+
+   and run:
+
+   ```bash
+   npm install
+   ```
+
+3. Run application:
+
+   ```bash
+   npm start
+   ```
+
+4. After running npm start, the website should open automatically in your browser. If it doesn't, open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
