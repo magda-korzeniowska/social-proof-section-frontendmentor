@@ -57,3 +57,4 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 ## Sources
 
 - [Minimum Static Site Setup with Sass](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+- [CSS Reset](https://www.joshwcomeau.com/css/custom-css-reset/)
