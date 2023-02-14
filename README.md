@@ -53,3 +53,7 @@ This is a solution to the [Social Proof Section challenge on Frontend Mentor](ht
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+
+## Sources
+
+- [Minimum Static Site Setup with Sass](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
